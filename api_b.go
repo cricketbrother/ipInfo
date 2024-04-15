@@ -12,7 +12,7 @@ import (
 
 type BResponse struct {
 	Success bool   `json:"success"`
-	Ip      string `json:"ip"`
+	IP      string `json:"ip"`
 	Code    int    `json:"code"`
 	Message string `json:"message"`
 	Info    BInfo  `json:"info"`
@@ -22,7 +22,7 @@ type BInfo struct {
 	Country string `json:"country"`
 	Prov    string `json:"prov"`
 	City    string `json:"city"`
-	Isp     string `json:"isp"`
+	ISP     string `json:"isp"`
 }
 
 func getFromApiVvhanCom(ip string) (*Result, error) {
@@ -64,7 +64,7 @@ func getFromApiVvhanCom(ip string) (*Result, error) {
 	r.Data.Country = resp.Info.Country
 	r.Data.Province = resp.Info.Prov
 	r.Data.City = resp.Info.City
-	r.Data.ISP = resp.Info.Isp
+	r.Data.ISP = resp.Info.ISP
 
 	r.oneChina()
 

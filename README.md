@@ -7,3 +7,5 @@
 [https://api.vore.top/doc/IPdata.html](https://api.vore.top/doc/IPdata.html)
 
 [https://api.vvhan.com/article/ipinfo.html](https://api.vvhan.com/article/ipinfo.html)
+
+[https://api.mir6.com/doc/ip_json.html](https://api.mir6.com/doc/ip_json.html)
